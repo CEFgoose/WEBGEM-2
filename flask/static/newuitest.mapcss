@@ -1,0 +1,545 @@
+
+/* USER SEARCH SETTINGS */
+setting::user_Gwen {
+            type:boolean;
+            label:tr("Turn User Gwen On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD082"][setting("user_Gwen")] {
+  set .Gwen;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Gwen{
+  z-index: -10;
+  casing-color: #a7d24d;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Gwen{
+  symbol-size: 11;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #ff1e10;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Callista {
+            type:boolean;
+            label:tr("Turn User Callista On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD157"][setting("user_Callista")] {
+  set .Callista;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Callista{
+  z-index: -10;
+  casing-color: #47ff00;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Callista{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #c300ff;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Rob {
+            type:boolean;
+            label:tr("Turn User Rob On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD171"][setting("user_Rob")] {
+  set .Rob;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Rob{
+  z-index: -10;
+  casing-color: #c15f18;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Rob{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #ff9500;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Arianna {
+            type:boolean;
+            label:tr("Turn User Arianna On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD176"][setting("user_Arianna")] {
+  set .Arianna;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Arianna{
+  z-index: -10;
+  casing-color: #5ac4ce;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Arianna{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #cee2ff;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Brian {
+            type:boolean;
+            label:tr("Turn User Brian On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD168"][setting("user_Brian")] {
+  set .Brian;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Brian{
+  z-index: -10;
+  casing-color: #ff3100;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Brian{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #190011;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Matt {
+            type:boolean;
+            label:tr("Turn User Matt On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD170"][setting("user_Matt")] {
+  set .Matt;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Matt{
+  z-index: -10;
+  casing-color: #00c6ff;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Matt{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #002bff;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Leah {
+            type:boolean;
+            label:tr("Turn User Leah On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD175"][setting("user_Leah")] {
+  set .Leah;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Leah{
+  z-index: -10;
+  casing-color: #05c671;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Leah{
+  symbol-size: 7;
+  symbol-shape: square;
+  symbol-stroke-color: #d0021b;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_AustinM {
+            type:boolean;
+            label:tr("Turn User AustinM On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD177"][setting("user_AustinM")] {
+  set .AustinM;
+}
+
+
+
+/*USER WAY STYLE*/
+way.AustinM{
+  z-index: -10;
+  casing-color: #d69545;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.AustinM{
+  symbol-size: 7;
+  symbol-shape: decagon;
+  symbol-stroke-color: #ff8900;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_AustinD {
+            type:boolean;
+            label:tr("Turn User AustinD On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD185"][setting("user_AustinD")] {
+  set .AustinD;
+}
+
+
+
+/*USER WAY STYLE*/
+way.AustinD{
+  z-index: -10;
+  casing-color: #7ed321;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.AustinD{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #417505;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Jacob {
+            type:boolean;
+            label:tr("Turn User Jacob On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD186"][setting("user_Jacob")] {
+  set .Jacob;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Jacob{
+  z-index: -10;
+  casing-color: #ea0b0b;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Jacob{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #ea8406;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Chris {
+            type:boolean;
+            label:tr("Turn User Chris On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD187"][setting("user_Chris")] {
+  set .Chris;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Chris{
+  z-index: -10;
+  casing-color: #44f9c3;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Chris{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #ef06e5;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Justin {
+            type:boolean;
+            label:tr("Turn User Justin On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD188"][setting("user_Justin")] {
+  set .Justin;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Justin{
+  z-index: -10;
+  casing-color: #549ab5;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Justin{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #00e33c;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Casey {
+            type:boolean;
+            label:tr("Turn User Casey On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD192"][setting("user_Casey")] {
+  set .Casey;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Casey{
+  z-index: -10;
+  casing-color: #acea28;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Casey{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #2aec39;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+/* USER SEARCH SETTINGS */
+setting::user_Eliud {
+            type:boolean;
+            label:tr("Turn User Eliud On/Off");
+            default:true;
+            }
+/* USER SEARCH SETUP */
+
+
+*[osm_user_name() == "VLD193"][setting("user_Eliud")] {
+  set .Eliud;
+}
+
+
+
+/*USER WAY STYLE*/
+way.Eliud{
+  z-index: -10;
+  casing-color: #9088ea;
+  casing-width: 3;
+  casing-opacity: 0.6;
+  /*
+  text: eval(concat("Highway type =", " ", tag("highway")));
+  text-offset: -20;
+  */
+}
+
+/*USER NODE STYLE*/
+node.Eliud{
+  symbol-size: 7;
+  symbol-shape: pentagon;
+  symbol-stroke-color: #7797ea;
+  symbol-stroke-width: 3px;
+  symbol-fill-opacity: 0.5;
+  z-index: -5;
+}
+meta {
+  title: "newuitest";
+  description: "";
+  watch-modified: true;
+  version: "";
+
+
+}
+
+/* MODIFIED BUT NOT UPLOADED LAYER STYLE */
+
+node:modified::modified_layer {
+    symbol-shape: triangle;
+    symbol-size: 10;
+    symbol-stroke-color: orange;
+    symbol-stroke-width: 3px;
+    symbol-fill-opacity: 0.5;
+    z-index: -5;
+}
+
+way:modified::modified_layer,
+node:modified < way::modified_layer {
+    width: 6;
+    color: transparent;
+    opacity: 0;
+    casing-width: 1;
+    casing-color: #47D608;
+    casing-opacity: 0.7;
+    z-index: -5;
+}
+
+/*SELECTED LAYER STYLE*/
+node:selected::selected_layer {
+    symbol-shape: circle;
+    symbol-size: 22;
+    symbol-stroke-color: lime;
+    symbol-stroke-width: 3px;
+    symbol-fill-opacity: 0.5;
+    z-index: -5;
+}
